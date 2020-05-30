@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link
+        href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAP/uAP///wAq/wAAAAD/AACi/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMzMzMzMzMzMzMzMzMzMxERERERERERERERERERERFVVVVVVVVVVVVVVVVVVVVVRERERERERERERERERERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        rel="icon" type="image/x-icon" />
+    <title>GameJS</title>
+</head>
+
+<body>
+    <button id="rules-btn" class="btn rules-btn">Правила</button>
+    <div id="rules" class="rules">
+        <h2>Правила игры:</h2>
+        <p>
+            Используйте стрелки ← и → для управления платформой.
+        </p>
+        <p>Улучшения: <br>
+            <span class="pup ravno">=</span> — увеличение платформы в 2 раза (х2); <br>
+            <span class=" pup plus">+</span> — увеличение количества жизней (+1); <br>
+            <span class="pup tilda">~</span> — "липучая" платформа, шар остаётся на платформе после приземления; <br>
+            <span class="pup  sss">s</span> — "супершар" пробивает несколько рядов кирпичей; <br>
+
+        </p>
+        <p>При уничтожении всех кирпичей вы перейдёте на следующий уровень, количество рядов кирпией увеличится на 2.
+            Максимальный уровень 10.
+        </p>
+        <p>Как только количество жизней станет равно 0, игра закончится.</p>
+        <button id="close-btn" class="btn">Закрыть.</button>
+    </div>
+    <script src="src/app.js"></script>
+
+</body>
+
+</html>
